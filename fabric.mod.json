@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "targetesp",
+  "version": "${version}",
+  "name": "TargetESP",
+  "description": "Target marker around the entity you look at. N - toggle, J - style, K - color.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": { "client": ["anomalith.targetesp.TargetESPClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
